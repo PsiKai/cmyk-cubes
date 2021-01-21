@@ -42,10 +42,9 @@ body > div {
   transform-style: preserve-3d;
   width: 200px;
   height: 200px;
-  /* margin: 20rem auto 0; */
   position: relative;
-  top: 40%;
-  left: 10%;
+  top: 45%;
+  left: 15%;
   animation: rotate 5000ms ease-in-out alternate infinite;
   transform-origin: bottom right;
 }
