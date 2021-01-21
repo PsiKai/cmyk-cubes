@@ -1,0 +1,97 @@
+body {
+  background-color: lightgray;
+}
+
+body > div {
+  display: inline-block;
+}
+
+.white {
+  background-color: white;
+  height: 600px;
+  width: 600px;
+}
+.black {
+  background-color: black;
+  height: 600px;
+  width: 600px;
+}
+.red {
+  background-color: red;
+  height: 600px;
+  width: 600px;
+}
+.green {
+  background-color: green;
+  height: 600px;
+  width: 600px;
+}
+.blue {
+  background-color: blue;
+  height: 600px;
+  width: 600px;
+}
+
+.cmyk {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+.cube {
+  transform-style: preserve-3d;
+  width: 200px;
+  height: 200px;
+  /* margin: 20rem auto 0; */
+  position: relative;
+  top: 40%;
+  left: 10%;
+  animation: rotate 5000ms ease-in-out alternate infinite;
+  transform-origin: bottom right;
+}
+
+.m {
+  background-color: rgba(255, 0, 255, 0.5);
+}
+
+.y {
+  background-color: rgba(255, 255, 0, 0.5);
+}
+
+.c {
+  background-color: rgba(0, 255, 255, 0.5);
+}
+
+.s2 {
+  transform: translateZ(200px);
+}
+
+.s3 {
+  transform: rotateY(90deg);
+  transform-origin: right;
+}
+
+.s4 {
+  transform: rotateY(-90deg);
+  transform-origin: left;
+}
+
+.s5 {
+  transform: rotateX(90deg);
+  transform-origin: top;
+}
+
+.s6 {
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateY(-45deg) rotateZ(35deg) rotateX(45deg);
+  }
+
+  100% {
+    transform: rotateY(945deg) rotateZ(35deg) rotateX(45deg);
+  }
+}
