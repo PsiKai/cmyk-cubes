@@ -35,14 +35,9 @@ body > div {
   background-color: rgb(0, 0, 255);
 }
 
-.cmyk {
-  height: 200px;
-  width: 200px;
-  position: absolute;
-}
-
 .cube {
   transform-style: preserve-3d;
+  background-color: transparent;
   width: 200px;
   height: 200px;
   position: relative;
@@ -51,38 +46,37 @@ body > div {
   animation: rotate 5000ms ease-in-out alternate infinite;
 }
 
-.m {
-  background-color: rgba(255, 0, 255, 0.5);
-}
-
-.y {
-  background-color: rgba(255, 255, 0, 0.5);
+.cmyk {
+  height: 200px;
+  width: 200px;
+  position: absolute;
 }
 
 .c {
   background-color: rgba(0, 255, 255, 0.5);
 }
+.m {
+  background-color: rgba(255, 0, 255, 0.5);
+}
+.y {
+  background-color: rgba(255, 255, 0, 0.5);
+}
 
 .s1 {
   transform: translateZ(-100px);
 }
-
 .s2 {
   transform: translateZ(100px);
 }
-
 .s3 {
   transform: rotateY(90deg) translateZ(-100px);
 }
-
 .s4 {
   transform: rotateY(90deg) translateZ(100px);
 }
-
 .s5 {
   transform: rotateX(90deg) translateZ(-100px);
 }
-
 .s6 {
   transform: rotateX(90deg) translateZ(100px);
 }
