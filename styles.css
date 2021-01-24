@@ -47,10 +47,10 @@ body > div {
   width: 200px;
   height: 200px;
   position: relative;
-  top: 45%;
-  left: 15%;
+  top: 30%;
+  left: 33%;
   animation: rotate 5000ms ease-in-out alternate infinite;
-  transform-origin: bottom right;
+  /* transform-origin: bottom right; */
 }
 
 .m {
@@ -65,28 +65,28 @@ body > div {
   background-color: rgba(0, 255, 255, 0.5);
 }
 
+.s1 {
+  transform: translateZ(-100px);
+}
+
 .s2 {
-  transform: translateZ(200px);
+  transform: translateZ(100px);
 }
 
 .s3 {
-  transform: rotateY(90deg);
-  transform-origin: right;
+  transform: rotateY(90deg) translateZ(-100px);
 }
 
 .s4 {
-  transform: rotateY(-90deg);
-  transform-origin: left;
+  transform: rotateY(90deg) translateZ(100px);
 }
 
 .s5 {
-  transform: rotateX(90deg);
-  transform-origin: top;
+  transform: rotateX(90deg) translateZ(-100px);
 }
 
 .s6 {
-  transform: rotateX(-90deg);
-  transform-origin: bottom;
+  transform: rotateX(90deg) translateZ(100px);
 }
 
 @keyframes rotate {
@@ -122,7 +122,7 @@ body > div {
   .cube {
     height: 150px;
     width: 150px;
-    left: 12%;
+    left: 30%;
   }
 
   .cmyk {
@@ -130,7 +130,27 @@ body > div {
     height: 150px;
   }
 
+  .s1 {
+    transform: translateZ(-75px);
+  }
+
   .s2 {
-    transform: translateZ(150px);
+    transform: translateZ(75px);
+  }
+
+  .s3 {
+    transform: rotateY(90deg) translateZ(-75px);
+  }
+
+  .s4 {
+    transform: rotateY(90deg) translateZ(75px);
+  }
+
+  .s5 {
+    transform: rotateX(90deg) translateZ(-75px);
+  }
+
+  .s6 {
+    transform: rotateX(90deg) translateZ(75px);
   }
 }
