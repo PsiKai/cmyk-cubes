@@ -50,6 +50,7 @@ body > div {
   height: 200px;
   width: 200px;
   position: absolute;
+  animation: none;
 }
 
 .c {
@@ -69,13 +70,13 @@ body > div {
   transform: translateZ(100px);
 }
 .s3 {
-  transform: rotateY(90deg) translateZ(-100px);
+  transform: rotateY(-90deg) translateZ(100px);
 }
 .s4 {
   transform: rotateY(90deg) translateZ(100px);
 }
 .s5 {
-  transform: rotateX(90deg) translateZ(-100px);
+  transform: rotateX(-90deg) translateZ(100px);
 }
 .s6 {
   transform: rotateX(90deg) translateZ(100px);
@@ -83,7 +84,7 @@ body > div {
 
 @keyframes rotate {
   0% {
-    transform: rotateY(-45deg) rotateZ(35deg) rotateX(45deg);
+    transform: rotateY(-45deg) rotateZ(-35deg) rotateX(-45deg);
   }
 
   100% {
@@ -122,7 +123,7 @@ body > div {
   }
 
   .s3 {
-    transform: rotateY(90deg) translateZ(-75px);
+    transform: rotateY(-90deg) translateZ(75px);
   }
 
   .s4 {
@@ -130,7 +131,7 @@ body > div {
   }
 
   .s5 {
-    transform: rotateX(90deg) translateZ(-75px);
+    transform: rotateX(-90deg) translateZ(75px);
   }
 
   .s6 {
