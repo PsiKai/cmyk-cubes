@@ -37,7 +37,7 @@ body > div {
 
 .cube {
   transform-style: preserve-3d;
-  background-color: transparent;
+  background-color: initial;
   width: 200px;
   height: 200px;
   position: relative;
