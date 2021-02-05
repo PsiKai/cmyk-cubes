@@ -17,6 +17,7 @@ body > div {
   height: 600px;
   width: 600px;
   position: relative;
+  perspective: 5000px;
 }
 
 .white {
