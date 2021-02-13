@@ -6,7 +6,7 @@ Being fascinated by the toy I've seen in videos: a clear, hand-held cube where e
 
 I decided to go a bit further and include an animation of the cube spinning back and forth. I also repeated the cube over multiple backgrounds: white, black, and the additive primaries: red, green, and blue.
 
-![Screenshot](images/cmy-cube-site.png)
+![Screenshot](images/cmy-cube-site.PNG)
 
 The screenshot doesn't quite do it justice, so I recommend you look at the site in it's full glory. It's quite mesmorizing!
 
